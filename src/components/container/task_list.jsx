@@ -11,7 +11,7 @@ const TaskListComponent = props => {
   return (
     <div>
         <div>
-          Your Tasks:
+         <h1> Your Tasks: </h1>
         </div>  
         <TaskComponent task={defaulTask}>        </TaskComponent>
     </div>
