@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import TasListComponent from './componentes/container/task_list';
+import TaskListComponent from './components/container/task_list';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <TasListComponent>
-            
-          </TasListComponent>
+        <img src={logo} className="App-logo" alt="logo" />
+        {/*Componente de listado de tareas*/}
+        <TaskListComponent></TaskListComponent>
       </header>
     </div>
   );
